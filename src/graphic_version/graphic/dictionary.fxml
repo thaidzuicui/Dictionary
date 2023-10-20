@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.web.WebView?>
+
+<TabPane id="frame" cache="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="900.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="graphic_version.Controller">
+  <tabs>
+    <Tab text="Dictionary">
+         <content>
+            <SplitPane prefHeight="200.0" prefWidth="200.0">
+               <items>
+                  <SplitPane dividerPositions="0.33" prefHeight="160.0" prefWidth="200.0">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="721.0" prefWidth="292.0" style="-fx-background-color: lightgrey;">
+                           <children>
+                              <TextField fx:id="search" layoutX="52.0" layoutY="6.0" onAction="#search" prefHeight="44.0" prefWidth="228.0" promptText="Tra từ Anh Việt">
+                                 <font>
+                                    <Font name="Arial" size="20.0" />
+                                 </font>
+                              </TextField>
+                              <ListView fx:id="output" fixedCellSize="40.0" layoutX="15.0" layoutY="54.0" onMouseClicked="#displayDefinition" prefHeight="614.0" prefWidth="264.0" AnchorPane.leftAnchor="16.0" AnchorPane.topAnchor="57.0" />
+                              <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="16.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="16.0">
+                                 <image>
+                                    <Image url="@../image/search_sb.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="618.0" style="-fx-background-color: lightgrey;">
+                           <children>
+                              <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="14.0">
+                                 <image>
+                                    <Image url="@../image/definition_sb.png" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="52.0" layoutY="5.0" prefHeight="50.0" prefWidth="150.0" text="Definition">
+                                 <font>
+                                    <Font name="Arial Bold" size="30.0" />
+                                 </font>
+                              </Label>
+                              <TextArea fx:id="display" editable="false" layoutX="422.0" layoutY="574.0" prefHeight="120.0" prefWidth="138.0">
+                                 <font>
+                                    <Font name="Arial" size="20.0" />
+                                 </font>
+                              </TextArea>
+                              <WebView fx:id="test" layoutX="21.0" layoutY="55.0" prefHeight="611.0" prefWidth="557.0" AnchorPane.topAnchor="57.0" />
+                           </children>
+                        </AnchorPane>
+                    </items>
+                  </SplitPane>
+               </items>
+            </SplitPane>
+         </content>
+    </Tab>
+    <Tab text="Translate">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+      </content>
+    </Tab>
+      <Tab text="Grammar">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+        </content>
+      </Tab>
+      <Tab text="Game">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+        </content>
+      </Tab>
+      <Tab text="Setting">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+        </content>
+      </Tab>
+  </tabs>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</TabPane>

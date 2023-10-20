@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4784a1ca-f485-454d-9d5a-0d2a85809bd3" name="Changes" comment="" />
+    <list default="true" id="4784a1ca-f485-454d-9d5a-0d2a85809bd3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cmd_version/Dictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cmd_version/DictionaryCommandline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cmd_version/DictionaryManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cmd_version/Word.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cmd_version/wordd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphic_version/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphic_version/DictionaryApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphic_version/dictionary.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphic_version/graphic/dictionary.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphic_version/image/definition_sb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphic_version/image/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphic_version/image/search_sb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dictionary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dictionary.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,9 +44,19 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "onboarding.tips.debug.path": "D:/CODE/dictionary/src/Main.java"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/CODE/dictionary/src",
+    "onboarding.tips.debug.path": "D:/CODE/dictionary/src/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CODE\dictionary\src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -36,16 +67,5 @@
       <updated>1697785147919</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
