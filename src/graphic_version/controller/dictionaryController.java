@@ -1,4 +1,4 @@
-package graphic_version;
+package graphic_version.controller;
 
 import cmd_version.*;
 import javafx.beans.value.ChangeListener;
@@ -7,19 +7,16 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.collections.transformation.FilteredList;
 import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
-import javafx.scene.input.KeyEvent;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.text.Font;
-import javafx.scene.text.FontWeight;
 import javafx.scene.web.WebView;
 import javafx.util.Callback;
 
 import java.io.IOException;
 
-public class Controller {
+public class dictionaryController {
     @FXML
     private TextField search;
     @FXML
@@ -27,7 +24,7 @@ public class Controller {
     private ObservableList<String> allWords;
     private FilteredList<String> filteredWords;
 
-    public Controller() throws IOException {
+    public dictionaryController() throws IOException {
         allWords = FXCollections.observableArrayList();
         DictionaryManagement.insertFromFile();
         for (Word word : Dictionary.dic.words) {
@@ -107,7 +104,7 @@ public class Controller {
     private WebView test;
     public void tt()
     {
-        String htmlContent = "" ;
+        String htmlContent = "nice<br>hi" ;
 
         // Load HTML content into the WebView
         test.getEngine().loadContent(htmlContent);

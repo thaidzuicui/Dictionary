@@ -5,35 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4784a1ca-f485-454d-9d5a-0d2a85809bd3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmd_version/Dictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmd_version/DictionaryCommandline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmd_version/DictionaryManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmd_version/Word.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmd_version/wordd.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphic_version/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphic_version/DictionaryApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphic_version/dictionary.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphic_version/graphic/dictionary.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphic_version/image/definition_sb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphic_version/image/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphic_version/image/search_sb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphic_version/controller/gameController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphic_version/controller/mainSceneController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphic_version/controller/settingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphic_version/controller/translateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphic_version/graphic/game.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphic_version/graphic/mainScene.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphic_version/graphic/setting.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graphic_version/graphic/translate.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dictionary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dictionary.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphic_version/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphic_version/controller/dictionaryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphic_version/DictionaryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphic_version/DictionaryApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphic_version/dictionary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphic_version/graphic/dictionary.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphic_version/graphic/dictionary.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2X18ImzDojKxurYF9lVNZdcmxX8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -45,10 +52,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/CODE/dictionary/src",
+    "last_opened_file_path": "D:/CODE/dictionary/lib/mysql-connector-j-8.1.0.jar",
     "onboarding.tips.debug.path": "D:/CODE/dictionary/src/Main.java",
     "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
@@ -56,6 +63,34 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\CODE\dictionary\src" />
     </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="graphic_version.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.DictionaryApplication">
+    <configuration name="DictionaryApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphic_version.DictionaryApplication" />
+      <module name="dictionary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graphic_version.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mysql-connector-j-8.1.0.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/lib/mysql-connector-j-8.1.0.jar" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DictionaryApplication" />
+        <item itemvalue="JAR Application.mysql-connector-j-8.1.0.jar" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

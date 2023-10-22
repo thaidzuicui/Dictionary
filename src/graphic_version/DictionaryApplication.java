@@ -15,12 +15,19 @@ public class DictionaryApplication extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(DictionaryApplication.class.getResource("graphic/dictionary.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 900, 750);
-        Image favicon = new Image("file:src/graphic_version/image/logo.png");
-        stage.getIcons().add(favicon);
-        stage.setTitle("Oxford Dictionary");
-        stage.setScene(scene);
-        stage.show();
+        try
+        {
+            FXMLLoader fxmlLoader = new FXMLLoader(DictionaryApplication.class.getResource("graphic/mainScene.fxml"));
+            Scene scene = new Scene(fxmlLoader.load(), 900, 750);
+            Image favicon = new Image("file:src/graphic_version/image/logo.png");
+            stage.getIcons().add(favicon);
+            stage.setTitle("Oxford Dictionary");
+            stage.setScene(scene);
+            stage.show();
+        }
+        catch(Exception e)
+        {
+            e.printStackTrace() ;
+        }
     }
 }

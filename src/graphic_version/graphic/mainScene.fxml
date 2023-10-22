@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity"
+            minHeight="400" minWidth="400"
+            prefHeight="750.0" prefWidth="900.0"
+            xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="graphic_version.controller.mainSceneController">
+    <children>
+        <TabPane layoutX="1.0" layoutY="2.0"
+                 prefHeight="750.0" prefWidth="900.0"
+                 tabClosingPolicy="UNAVAILABLE"
+                 AnchorPane.bottomAnchor="0.0"
+                 AnchorPane.leftAnchor="0.0"
+                 AnchorPane.rightAnchor="0.0"
+                 AnchorPane.topAnchor="0.0">
+            <tabs>
+                <Tab fx:id="tabDictionary" text="Dictionary">
+                    <content>
+                        <fx:include source="dictionary.fxml" />
+                    </content>
+                </Tab>
+                <Tab fx:id="tabTranslate" text="Translate">
+                    <content>
+                        <fx:include source="translate.fxml" />
+                    </content>
+                </Tab>
+                <Tab fx:id="tabGame" text="Game">
+                    <content>
+                        <fx:include source="game.fxml" />
+                    </content>
+                </Tab>
+                <Tab fx:id="tabSetting" text="Setting">
+                    <content>
+                        <fx:include source="setting.fxml" />
+                    </content>
+                </Tab>
+            </tabs>
+        </TabPane>
+    </children>
+</AnchorPane>
